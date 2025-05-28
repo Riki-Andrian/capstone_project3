@@ -14,7 +14,7 @@ Struktur Folder
  |   │   │-- json/     # Folder untuk menyimpan data JSON
  │-- gcp-creds/        # Folder untuk menyimpan service account
  │-- logs/       
- │-- plugin/         
+ │-- plugins/         
  │-- script/           # Folder untuk menyimpan script python
  |   │-- pubsub/      
 
@@ -31,6 +31,7 @@ Struktur Folder
 
 2. Cara Setup Program
   - Pastikan sudah mempunyai google service account.
+  - Buat folder :"logs", "config", "gcp-creds", "plugins"
   - Pindahkan service account kedalam folder gcp-creds dan rename menjadi "purwadika-key.json'.
   - Pastikan docker sudah aktif.
   - Buat docker image dengan perintah berikut:

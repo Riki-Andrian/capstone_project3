@@ -1,0 +1,4 @@
+.venv/
+purwadika-key.json
+logs/*/
+.vscode/

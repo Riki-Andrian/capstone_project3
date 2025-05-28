@@ -1,0 +1,7 @@
+google-cloud-storage
+google-cloud-bigquery
+pandas
+apache-airflow-providers-google
+google-cloud-pubsub
+apache-beam[gcp]
+faker
